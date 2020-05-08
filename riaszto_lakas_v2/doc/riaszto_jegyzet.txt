@@ -1,0 +1,26 @@
+Jegyzet
+-------
+
+1.
+mozgás érzékelõ client
+ - radio modul
+ - pir mozgás érzékelõ
+ - arduino micro 5v
+ - bekapcsoláskor küldi a jelet a szervernek, ha nem sikerül, akkor ismét küldi.
+ - bekapcsolást a pir érzékelõ modul végzi, az arduinonak a tapot mosfet-el adom.
+
+
+2.
+központ
+ - sim900 modul
+ - radio modul
+ - backup battery
+ - gyujti a kezelotol és a mozgas erzekelotol kapott karaktereket
+ - SMS-t küld
+
+
+3.
+kezelõ
+ - nyomogomb karaktereket tovabbit a kozopnt fele.
+ - kozpont visszajelzeset hangszoro jelzni
+
